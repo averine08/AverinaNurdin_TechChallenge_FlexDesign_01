@@ -1,0 +1,252 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Poppins';
+  
+}
+h1{
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 15px;
+}
+img{
+  width: 1.5rem;
+  height: 1.5rem;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.card{
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 30px;
+  /* background-color: aqua; */
+  /* float: left;; */
+  
+}
+/* .container{
+  display: flex;
+  align-items: center;
+  background-color: palegreen;
+} */
+.card_top{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* height: fit-content; */
+  width: 100%;
+  /* background-color: blueviolet; */
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card1{
+  display: flex;
+  height: fit-content;
+  flex-direction: column;
+  border-color: rgb(0, 0, 0);
+  border: 3px solid;
+  border-radius: 8px;
+  padding: 10px 20px 20px 20px;
+}
+
+.card1 .person{
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+.card1 .person .left{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card1 .person .left .name {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.card1 .person .left .phone{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.card1 .person .right .name{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.card1 .person .right .phone{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.card1 .person .right{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* =======CARD 2 =====*/
+.card2{
+  display: flex;
+  height: fit-content;
+  flex-direction: column;
+  border-color: rgb(0, 0, 0);
+  border: 3px solid;
+  border-radius: 8px;
+  padding: 10px 20px 20px 20px;
+}
+
+.card2 .person{
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+.card2 .person .left{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card2 .person .left .name {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.card2 .person .left .phone{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.card2 .person .right .name{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.card2 .person .right .phone{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.card2 .person .right{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.card_bottom{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* height: fit-content; */
+  width: 100%;
+  /* background-color: blueviolet; */
+  flex-wrap: wrap;
+  gap: 20px;
+}
+/* =======CARD 3======== */
+.card3{
+  display: flex;
+  height: fit-content;
+  flex-direction: column;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 10px 20px 20px 20px;
+}
+
+.card3 .person{
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+.card3 .person .left{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card3 .person .left .name {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.card3 .person .left .phone{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.card3 .person .right .name{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.card3 .person .right .phone{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.card3 .person .right{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* =======CARD 4 */
+.card4{
+  display: flex;
+  height: fit-content;
+  flex-direction: column;
+  border-color: rgb(0, 0, 0);
+  border: 3px solid;
+  border-radius: 5px;
+  padding: 10px 20px 20px 20px;
+}
+.card4 .person{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card4 .person .name{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.card4 .person .phone{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+@media screen and(max-width: 1280px){
+  .card{
+    width: 50%;
+  }
+} 
